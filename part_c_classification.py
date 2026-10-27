@@ -331,7 +331,7 @@ def main():
         row for row in threshold_rows if row["recall"] >= 0.80
     ]
     chosen_threshold = (
-        max(eligible, key=lambda row: row["threshold"])["threshold"]
+        max(eligible, key=lambda row: row["recall"])["threshold"]
         if eligible else 0.1
     )
 
