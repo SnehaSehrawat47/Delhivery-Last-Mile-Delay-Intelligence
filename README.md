@@ -9,9 +9,10 @@ Activate the virtual environment and install dependencies:
 pip install -r requirements.txt
 ```
 
-Run the scripts in this order:
+Generate the data and run the scripts in this order:
 
-```python generate_data.py
+```powershell
+python generate_data.py
 python part_a_clean_eda.py
 python part_b_regression.py
 python part_c_classification.py
