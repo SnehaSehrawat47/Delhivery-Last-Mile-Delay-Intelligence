@@ -3,7 +3,7 @@ raw_rows,1224.0000
 duplicate_rows_removed,24.0000
 rows_after_dedup,1200.0000
 missing_distance_km_before,36.0000
-missing_parcel_weight_before,25.0000
+missing_parcel_weight_before,24.0000
 missing_declared_value_before,12.0000
 missing_payment_mode_before,18.0000
 service_type_spellings_before,12.0000
@@ -17,7 +17,7 @@ median_parcel_weight_kg,1.8300
 median_declared_value_inr,1121.5000
 rows_after_hub_merge,1200.0000
 nulls_in_features_and_target,0.0000
-sentinel_weight_rows,0.0000
+sentinel_weight_rows,5.0000
 delayed_count,278.0000
 delay_rate,0.2317
 hours_q1,43.2550

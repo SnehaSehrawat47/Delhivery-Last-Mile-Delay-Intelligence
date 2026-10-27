@@ -18,8 +18,7 @@ def main():
 
     missing_distance = int(raw["distance_km"].isna().sum())
     missing_weight = int(
-        (raw["parcel_weight_kg"].isna()
-         | (raw["parcel_weight_kg"] == -1)).sum()
+        raw.drop_duplicates()["parcel_weight_kg"].isna().sum()
     )
     missing_value = int(raw["declared_value"].isna().sum())
     missing_payment = int(raw["payment_mode"].isna().sum())
@@ -29,7 +28,7 @@ def main():
 
     service_spellings_after = int(clean["service_type"].nunique())
     sentinel_weight_rows = int(
-        (clean["parcel_weight_kg"] == -1).sum()
+        (raw.drop_duplicates()["parcel_weight_kg"] > 100).sum()
     )
 
     # Build features and target
