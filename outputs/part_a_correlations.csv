@@ -1,0 +1,5 @@
+,delivery_hours,promised_hours,distance_km,is_delayed
+delivery_hours,1.0000,0.8372,0.4013,0.1391
+promised_hours,0.8372,1.0000,-0.0008,-0.2990
+distance_km,0.4013,-0.0008,1.0000,0.5455
+is_delayed,0.1391,-0.2990,0.5455,1.0000
