@@ -1,4 +1,4 @@
-# Delhivery Last-Mile Delay Intelligence Pipeline
+# Delivery Last-Mile Delay Intelligence Pipeline
 
 ## 1. How to Run
 
